@@ -1,0 +1,156 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 13, 2023, 1:59:30 PM
+    Author     : gary
+*/
+
+
+body{
+    background-color: black;
+    font-size: 20px;
+    font-family: Arial;
+    color:black;
+}
+
+
+
+.header{
+    padding: 15px;
+    text-align: center;
+    background: darkseagreen;
+    color: black;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.h2{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.navbar{
+    background:#006633;
+    font-size: 20px;
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.navbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    width: 15%;
+}
+
+.navbar a:hover{
+    background-color:floralwhite;
+    color: black;
+}
+
+.navbar a.right{
+    float: right;
+    padding: 0px 30px;
+}
+
+.navbar a.active{
+    background-color:bisque;
+    color: black;
+}
+
+.footer{
+    padding: 12px;
+    text-align: center;
+    background:darkseagreen;
+    font-size: 8px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.container{
+    color:white;
+}
+
+input[type=text], input[type=password], select, textarea{
+    width:100%;
+    padding: 10px;
+    border: 3px solid grey;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    resize: vertical;
+}
+
+*{box-sizing: border-box}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color: aliceblue;
+    outline: none;
+    
+}
+
+hr{
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+/* Float signup and cancel buttons, set width*/
+.cancelbutton, .signupbutton, .signinbutton{
+    float: left;
+    width: 10%;
+}
+
+.container2{
+    padding: 20px;
+}
+
+/* Clear floats...not sure what this means but we'll see'*/
+.clearfix::after{
+    content: "";
+    clear: both;
+    dislplay: table;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    color: white;
+}
+
+.port{
+    color:white;
+}
+
+.sign{
+    background-color: white;
+    color: black;
+}
+
+.home{
+    font-size: 70px;
+    color:white;
+    text-align: left;
+    margin: 130px;
+    
+}
+
+
